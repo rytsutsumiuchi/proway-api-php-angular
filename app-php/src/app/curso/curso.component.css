@@ -1,0 +1,23 @@
+input, button {
+    margin: 5px;
+    padding: 5px
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px;
+}
+
+th, td {
+    border: solid 1px;
+    text-align: center;
+    padding: 5px 10px;   
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+td:nth-child(odd) {
+    text-align: left;
+}
